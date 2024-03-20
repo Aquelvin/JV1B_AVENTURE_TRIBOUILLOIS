@@ -23,7 +23,7 @@ public class loadscene : MonoBehaviour
         {
             if (other.IsTouchingLayers(3))
             {
-                SceneManager.LoadScene(1);
+                SceneManager.LoadScene(0);
             }
         }
 }
