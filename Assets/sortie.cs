@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class secondescene : MonoBehaviour
+public class sortie : MonoBehaviour
 {
     public BoxCollider2D bc;
 
@@ -23,7 +23,7 @@ public class secondescene : MonoBehaviour
     {
         if (other.IsTouchingLayers(3))
         {
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(1);
         }
     }
 }
