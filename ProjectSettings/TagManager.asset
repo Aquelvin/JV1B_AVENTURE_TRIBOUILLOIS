@@ -4,6 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - Limit_enemis1
+  - Limit_enemis2
+  - Limit_enemis3
+  - Limit_enemis4
   - Limit_enemis
   layers:
   - Default
