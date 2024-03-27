@@ -35,7 +35,7 @@ public class paterns : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Limit_enemis"))
+        if (other.CompareTag("Limit_enemis1"))
         {
             if (droite)
             {

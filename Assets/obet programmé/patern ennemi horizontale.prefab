@@ -221,7 +221,7 @@ GameObject:
   - component: {fileID: 6847447623681374590}
   m_Layer: 0
   m_Name: limite (1)
-  m_TagString: Limit_enemis
+  m_TagString: Limit_enemis1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -379,7 +379,7 @@ GameObject:
   - component: {fileID: 3216770254738565909}
   m_Layer: 0
   m_Name: limite
-  m_TagString: Limit_enemis
+  m_TagString: Limit_enemis1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
