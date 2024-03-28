@@ -460,7 +460,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bc: {fileID: 1181909447}
   rgbd: {fileID: 1181909446}
-  speed: 8
+  speed: 15
 --- !u!50 &1181909446
 Rigidbody2D:
   serializedVersion: 4
@@ -538,5 +538,5 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1181909444}
-  - {fileID: 519420032}
   - {fileID: 515721388}
+  - {fileID: 519420032}

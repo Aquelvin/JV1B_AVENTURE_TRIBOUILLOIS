@@ -57,29 +57,33 @@ public class paterns3 : MonoBehaviour
     {
         if (other.CompareTag("Limit_enemis1"))
         {
-            droite = false;
+            rgbd.velocity = new Vector2(0, 0);
+            gauche = false;
             haut = true;
             
         }
 
         if (other.CompareTag("Limit_enemis2"))
         {
+            rgbd.velocity = new Vector2(0, 0);
             haut = false;
-            gauche = true;
+            droite = true;
             
         }
 
         if (other.CompareTag("Limit_enemis3"))
         {
-            gauche = false;
+            rgbd.velocity = new Vector2(0, 0);
+            droite = false;
             bas = true;
             
         }
 
         if (other.CompareTag("Limit_enemis4"))
         {
+            rgbd.velocity = new Vector2(0, 0);
             bas = false;
-            droite = true;
+            gauche = true;
             
         }
     }
