@@ -9,6 +9,7 @@ TagManager:
   - Limit_enemis3
   - Limit_enemis4
   - Limit_enemis
+  - limite_cam
   layers:
   - Default
   - TransparentFX
@@ -16,7 +17,7 @@ TagManager:
   - personnage
   - Water
   - UI
-  - 
+  - limite cam
   - 
   - 
   - 
