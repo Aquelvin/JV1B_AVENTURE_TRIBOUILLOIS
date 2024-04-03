@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class scene : MonoBehaviour
 {
     public BoxCollider2D bc;
+    public BoxCollider2D target;
 
     // Start is called before the first frame update
     void Start()
@@ -21,9 +22,10 @@ public class scene : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.IsTouchingLayers(3))
+        if (other.CompareTag("Player"))
         {
             SceneManager.LoadScene(1);
+  
         }
     }
 }

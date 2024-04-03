@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3978735334030686658}
   - component: {fileID: 7951407982534159411}
   - component: {fileID: 750078645319145387}
+  - component: {fileID: 476091654873890112}
   m_Layer: 0
   m_Name: ennemie
   m_TagString: Untagged
@@ -173,6 +174,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   droite: 0
+--- !u!114 &476091654873890112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3017152176725022753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb069a63d798bab49bd9c5ba862919c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bc2d: {fileID: 3978735334030686658}
+  attackkey: 32
+  aportee: 0
 --- !u!1 &5488495346467884010
 GameObject:
   m_ObjectHideFlags: 0
