@@ -10,6 +10,7 @@ TagManager:
   - Limit_enemis4
   - Limit_enemis
   - limite_cam
+  - hitboxattack
   layers:
   - Default
   - TransparentFX
