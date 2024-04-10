@@ -17,7 +17,11 @@ public class DontDestroyOnLoad : MonoBehaviour
     public float respiration;
     public float res_perdue;
     public float res_regen;
-    private bool can_res;
+
+    public bool aportee = false;
+
+    [SerializeField]
+    private KeyCode breathing;
 
     // Start is called before the first frame update
     void Start()
@@ -28,7 +32,11 @@ public class DontDestroyOnLoad : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Res();
+        Res_perd();
+        if(aportee && Input.GetKey(breathing))
+        {
+            Res_gagne();
+        }
         horizontal = Input.GetAxisRaw("Horizontal");
         vertical = Input.GetAxisRaw("Vertical");
 
@@ -40,19 +48,18 @@ public class DontDestroyOnLoad : MonoBehaviour
         }
     }
 
-    private void Res()
+    private void Res_perd()
     {
-        if (!can_res)
+        respiration -= res_perdue;
+        health_bar.transform.localScale = new Vector3(respiration / 100f, 1f, 1f);
+    }
+
+    void Res_gagne()
+    {
+        respiration += res_regen;
+        if (respiration > 100)
         {
-            respiration -= res_perdue;
-        }
-        else if (can_res)
-        {
-            respiration += res_regen;
-            if (respiration > 100)
-            {
-                respiration = 100;
-            }
+            respiration = 100;
         }
         health_bar.transform.localScale = new Vector3(respiration / 100f, 1f, 1f);
     }
@@ -60,5 +67,22 @@ public class DontDestroyOnLoad : MonoBehaviour
     void Death()
     {
         Destroy(gameObject);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("hitboxrespi"))
+        {
+
+            aportee = true;
+        }
+    }
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("hitboxrespi"))
+        {
+
+            aportee = false;
+        }
     }
 }

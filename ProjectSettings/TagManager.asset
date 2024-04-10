@@ -11,6 +11,7 @@ TagManager:
   - Limit_enemis
   - limite_cam
   - hitboxattack
+  - hitboxrespi
   layers:
   - Default
   - TransparentFX
