@@ -10,6 +10,7 @@ public class respirateur : MonoBehaviour
     [SerializeField]
     private BoxCollider2D bcd;
 
+
     [SerializeField]
     private KeyCode breathing = KeyCode.A;
 
