@@ -123,6 +123,33 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &39955643 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8421842494546541483, guid: 96cbbde132770d74c9d394333e898694, type: 3}
+  m_PrefabInstance: {fileID: 795096091}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &39955644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 39955643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e33dd7892f3eacd40bb212396f39a3d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bc2d: {fileID: 39955647}
+  attackkey: 32
+  aportee: 0
+  nombrevie: 5
+  vieperdue: 1
+--- !u!61 &39955647 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 8801337869846996715, guid: 96cbbde132770d74c9d394333e898694, type: 3}
+  m_PrefabInstance: {fileID: 795096091}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &267106199
 GameObject:
   m_ObjectHideFlags: 0
@@ -423,6 +450,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2845906714069749806, guid: 96cbbde132770d74c9d394333e898694, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8421842494546541483, guid: 96cbbde132770d74c9d394333e898694, type: 3}
       propertyPath: m_Name
       value: boss
@@ -458,7 +489,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8421842494546541483, guid: 96cbbde132770d74c9d394333e898694, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 39955644}
   m_SourcePrefab: {fileID: 100100000, guid: 96cbbde132770d74c9d394333e898694, type: 3}
 --- !u!1 &1294782966
 GameObject:
