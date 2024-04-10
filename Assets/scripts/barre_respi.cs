@@ -18,8 +18,7 @@ public class barre_respi : MonoBehaviour
     void Update()
     {
         
-            rgbd.velocity = new Vector2(-speed, rgbd.velocity.y);
-            gameObject.GetComponent<SpriteRenderer>().flipX = false;
+            
     }
 
 }
