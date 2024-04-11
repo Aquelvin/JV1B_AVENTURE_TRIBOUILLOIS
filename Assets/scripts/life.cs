@@ -39,6 +39,8 @@ public class life : MonoBehaviour
     public void PerdPv()
     {
         currentHealth--;
+
+        // essaie de mettre le code de Mel ici, pour les frames d'invulnérabilité
     }
 
     public void Respawn()
