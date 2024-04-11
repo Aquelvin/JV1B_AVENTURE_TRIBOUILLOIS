@@ -44,5 +44,8 @@ public class destruction : MonoBehaviour
             
             aportee = false;
         }
+        
+ 
     }
+
 }

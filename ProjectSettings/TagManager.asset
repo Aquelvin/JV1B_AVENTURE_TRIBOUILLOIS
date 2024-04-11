@@ -12,6 +12,7 @@ TagManager:
   - limite_cam
   - hitboxattack
   - hitboxrespi
+  - mob
   layers:
   - Default
   - TransparentFX
@@ -21,7 +22,7 @@ TagManager:
   - UI
   - limite cam
   - 
-  - 
+  - mob
   - 
   - 
   - 
