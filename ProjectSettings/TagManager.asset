@@ -13,6 +13,7 @@ TagManager:
   - hitboxattack
   - hitboxrespi
   - mob
+  - boss
   layers:
   - Default
   - TransparentFX

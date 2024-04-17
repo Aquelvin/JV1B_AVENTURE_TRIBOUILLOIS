@@ -19,9 +19,9 @@ public class secondescene : MonoBehaviour
 
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.IsTouchingLayers(3))
+        if (other.CompareTag("Player"))
         {
             SceneManager.LoadScene(2);
         }
