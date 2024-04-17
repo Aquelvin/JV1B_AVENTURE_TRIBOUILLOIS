@@ -18,7 +18,7 @@ public class boss : MonoBehaviour
         if (player != null)
         {
             // Calculer la direction du mouvement vers le joueur
-            Vector3 direction = player.position - transform.position;
+            Vector2 direction = player.position - transform.position;
             direction.Normalize();
 
             // Appliquer le mouvement
