@@ -32,8 +32,13 @@ public class DontDestroyOnLoad : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
+    }
+
+    private void FixedUpdate()
+    {
         Res_perd();
-        if(aportee && Input.GetKey(breathing))
+        if (aportee && Input.GetKey(breathing))
         {
             Res_gagne();
         }
@@ -42,7 +47,7 @@ public class DontDestroyOnLoad : MonoBehaviour
 
         rgbd.velocity = new Vector2(horizontal, vertical).normalized * speed;
 
-        if(respiration <= 0)
+        if (respiration <= 0)
         {
             Death();
         }
