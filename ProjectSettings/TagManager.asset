@@ -14,6 +14,8 @@ TagManager:
   - hitboxrespi
   - mob
   - boss
+  - cleA
+  - blocage
   layers:
   - Default
   - TransparentFX

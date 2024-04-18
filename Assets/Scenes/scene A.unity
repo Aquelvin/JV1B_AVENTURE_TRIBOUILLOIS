@@ -248,7 +248,7 @@ Transform:
   m_GameObject: {fileID: 65300193}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -108.65, y: -9.3994, z: 19.6}
+  m_LocalPosition: {x: -111.7, y: -9.3994, z: 19.6}
   m_LocalScale: {x: 5.1159124, y: 12.30346, z: 3.4042}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -266,7 +266,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b7570a3cc513e24a86df877bac18057, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bc: {fileID: 0}
+  bc: {fileID: 65300195}
 --- !u!1001 &247029826
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1011,7 +1011,7 @@ GameObject:
   - component: {fileID: 948341070}
   m_Layer: 0
   m_Name: arme
-  m_TagString: Untagged
+  m_TagString: cleA
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1484,7 +1484,7 @@ Transform:
   m_GameObject: {fileID: 8636611760335696168}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 136.3629, y: -12.534868, z: 19.6}
+  m_LocalPosition: {x: 139.9, y: -12.534868, z: 19.6}
   m_LocalScale: {x: 5.1159124, y: 12.30346, z: 3.4042}
   m_ConstrainProportionsScale: 0
   m_Children: []

@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class life : MonoBehaviour
 {
     public int maxHealth;
     public int currentHealth;
 
+    public Image[] coeurs;
 
     public Transform respawnPoint;
 
@@ -17,6 +19,13 @@ public class life : MonoBehaviour
     {
 
         currentHealth = maxHealth;
+        for ( int i = 0;i < coeurs.Length; i++)
+        {
+            if( i >= currentHealth)
+            {
+                coeurs[i].enabled = false;
+            }
+        }
 
     }
 

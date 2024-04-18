@@ -1,19 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class scene_3to2 : MonoBehaviour
+public class bool_cle_A : MonoBehaviour
 {
-    public BoxCollider2D bc;
-
-    
+    [SerializeField]
+    public BoxCollider2D bcd;
+    public bool recup = false;
 
     // Start is called before the first frame update
     void Start()
     {
         
-
     }
 
     // Update is called once per frame
@@ -21,14 +19,11 @@ public class scene_3to2 : MonoBehaviour
     {
 
     }
-
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("cleA"))
         {
-           
-                SceneManager.LoadScene(1);
-            
+            recup = true;
         }
     }
 }
