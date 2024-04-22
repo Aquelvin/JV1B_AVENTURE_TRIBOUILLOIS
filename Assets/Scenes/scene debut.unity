@@ -871,6 +871,7 @@ MonoBehaviour:
   - {fileID: 885264253}
   - {fileID: 303675785}
   respawnPoint: {fileID: 1181909444}
+  dead: 0
 --- !u!114 &1181909449
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1878,8 +1879,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 4a9cb61e1f6763c499ee9b9efdfe2ca9, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: a9898432b2012434e879feb02cabec19, type: 3}
+  m_Color: {r: 1, g: 1, b: 0.6039216, a: 0.7647059}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1982,8 +1983,8 @@ Transform:
   m_GameObject: {fileID: 6288083896336118497}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 17.4, y: -1.3, z: 5.4}
-  m_LocalScale: {x: 28.335304, y: 31.8362, z: 56.83999}
+  m_LocalPosition: {x: 7.5, y: -17, z: 5.4}
+  m_LocalScale: {x: 12.807275, y: 14.389645, z: 25.691107}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1181909444}
