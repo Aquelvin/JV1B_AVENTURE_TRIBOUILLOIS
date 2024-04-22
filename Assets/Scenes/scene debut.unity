@@ -503,7 +503,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 19.178707
+  orthographic size: 57.4475
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -528,11 +528,11 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -55.1, y: -1.1, z: -587.6}
-  m_LocalScale: {x: 5.78459, y: 5.7845883, z: 5.7845893}
+  m_LocalPosition: {x: 1.7133448, y: -6.51548, z: -1417.07}
+  m_LocalScale: {x: 7.6238256, y: 8.565765, z: -40}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1181909444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &543626022
 GameObject:
@@ -853,6 +853,7 @@ Transform:
   - {fileID: 452291298}
   - {fileID: 5242356408176965608}
   - {fileID: 1636471275}
+  - {fileID: 519420032}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1181909445
@@ -869,7 +870,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bc: {fileID: 1181909447}
   rgbd: {fileID: 1181909446}
-  speed: 300
+  speed: 150
   health_bar: {fileID: 1806700534}
   respiration: 100
   res_perdue: 0.02
@@ -2027,5 +2028,4 @@ SceneRoots:
   - {fileID: 515721388}
   - {fileID: 1983926080}
   - {fileID: 1308795960}
-  - {fileID: 519420032}
   - {fileID: 1419342083}
