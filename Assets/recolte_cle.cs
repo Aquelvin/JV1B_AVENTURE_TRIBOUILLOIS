@@ -1,18 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class tp_boss_room : MonoBehaviour
+public class recolte_cle : MonoBehaviour
 {
-    public BoxCollider2D bc;
-
-    bool_cle_A collected;
+    [SerializeField]
+    public BoxCollider2D bcd;
+    public bool detruit = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        collected = FindObjectOfType<bool_cle_A>();
+
     }
 
     // Update is called once per frame
@@ -20,12 +19,13 @@ public class tp_boss_room : MonoBehaviour
     {
 
     }
-
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player") && collected.recup)
+        if (other.CompareTag("Player"))
         {
-            SceneManager.LoadScene(12);
+
+            Destroy(bcd.gameObject);
+            detruit = true;
         }
     }
 }
