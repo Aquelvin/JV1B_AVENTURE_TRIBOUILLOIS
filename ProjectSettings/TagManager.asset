@@ -17,6 +17,7 @@ TagManager:
   - cleA
   - blocage
   - Limit_enemisZ
+  - lootfinal
   layers:
   - Default
   - TransparentFX
