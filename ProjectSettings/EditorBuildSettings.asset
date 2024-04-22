@@ -9,12 +9,30 @@ EditorBuildSettings:
     path: Assets/Scenes/scene debut.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/scene A.unity
+    path: Assets/Scenes/chantier/scene A.unity
     guid: d37af940ff0c08c478aea992b92f9870
   - enabled: 1
-    path: Assets/Scenes/zone B.unity
+    path: Assets/Scenes/chantier/zone B.unity
     guid: d4671da72c52369418e1b6c5c7c9933e
   - enabled: 1
-    path: Assets/Scenes/zone C.unity
+    path: Assets/Scenes/chantier/zone C.unity
     guid: e4bf545ce51cfca4fb128c7853dee176
+  - enabled: 1
+    path: Assets/Scenes/spawn.unity
+    guid: dca731f389cf59d478c6193fbe777168
+  - enabled: 1
+    path: Assets/Scenes/congrat.unity
+    guid: 50f5f38513c9af04ab6410e2caac024e
+  - enabled: 1
+    path: Assets/Scenes/mini_A.unity
+    guid: 0d1a13c2623a0e548b1f5b67ee121f6e
+  - enabled: 1
+    path: Assets/Scenes/salle_commune.unity
+    guid: 505e015fde0fb9b4eb8cc462ea430910
+  - enabled: 1
+    path: Assets/Scenes/mini_B.unity
+    guid: 4cec5b3c3c3b38248b02ef926228c2ec
+  - enabled: 1
+    path: Assets/Scenes/sword_room.unity
+    guid: 357f8b099d28d4049be33e8411f17fc3
   m_configObjects: {}
