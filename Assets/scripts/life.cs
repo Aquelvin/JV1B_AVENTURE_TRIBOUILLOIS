@@ -13,6 +13,8 @@ public class life : MonoBehaviour
 
     public Transform respawnPoint;
 
+    public bool dead = false;
+
 
     // Start is called before the first frame update
     void Start()
@@ -54,8 +56,10 @@ public class life : MonoBehaviour
 
     public void Respawn()
     {
+        
+        SceneManager.LoadScene(13);
+        dead = true;
         Destroy(gameObject);
-        SceneManager.LoadScene(0);
         transform.position = respawnPoint.position;
     }
 

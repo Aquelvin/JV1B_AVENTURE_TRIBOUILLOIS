@@ -16,6 +16,7 @@ TagManager:
   - boss
   - cleA
   - blocage
+  - Limit_enemisZ
   layers:
   - Default
   - TransparentFX

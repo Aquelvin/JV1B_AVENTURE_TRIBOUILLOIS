@@ -305,7 +305,7 @@ GameObject:
   - component: {fileID: 393103424}
   m_Layer: 0
   m_Name: limite
-  m_TagString: Limit_enemis1
+  m_TagString: Limit_enemisZ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -463,7 +463,7 @@ GameObject:
   - component: {fileID: 740999184}
   m_Layer: 0
   m_Name: limite (1)
-  m_TagString: Limit_enemis1
+  m_TagString: Limit_enemisZ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -916,7 +916,7 @@ GameObject:
   - component: {fileID: 1076530812}
   m_Layer: 0
   m_Name: limite (1)
-  m_TagString: Limit_enemis1
+  m_TagString: Limit_enemisZ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1142,7 +1142,7 @@ GameObject:
   - component: {fileID: 1239433743}
   m_Layer: 0
   m_Name: limite
-  m_TagString: Limit_enemis1
+  m_TagString: Limit_enemisZ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1740,7 +1740,7 @@ GameObject:
   - component: {fileID: 1392686410}
   m_Layer: 0
   m_Name: limite (1)
-  m_TagString: Limit_enemis1
+  m_TagString: Limit_enemisZ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2160,7 +2160,7 @@ GameObject:
   - component: {fileID: 1947600859}
   m_Layer: 0
   m_Name: limite
-  m_TagString: Limit_enemis1
+  m_TagString: Limit_enemisZ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3078,7 +3078,7 @@ GameObject:
   - component: {fileID: 4515396323136130094}
   m_Layer: 0
   m_Name: limite (1)
-  m_TagString: Limit_enemis1
+  m_TagString: Limit_enemisZ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3262,7 +3262,7 @@ GameObject:
   - component: {fileID: 1458780552293661564}
   m_Layer: 0
   m_Name: limite
-  m_TagString: Limit_enemis1
+  m_TagString: Limit_enemisZ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
