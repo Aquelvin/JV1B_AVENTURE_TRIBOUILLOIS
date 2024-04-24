@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DontDestroyOnLoad : MonoBehaviour
 {
@@ -22,6 +23,8 @@ public class DontDestroyOnLoad : MonoBehaviour
 
     [SerializeField]
     private KeyCode breathing;
+
+    public Canvas ui;
 
     // Start is called before the first frame update
     void Start()
@@ -49,6 +52,7 @@ public class DontDestroyOnLoad : MonoBehaviour
 
         if (respiration <= 0)
         {
+            ui.enabled = false;
             Death();
         }
     }
@@ -71,6 +75,9 @@ public class DontDestroyOnLoad : MonoBehaviour
 
     void Death()
     {
+        
+        SceneManager.LoadScene(13);
+        
         Destroy(gameObject);
     }
 

@@ -781,6 +781,7 @@ MonoBehaviour:
   res_regen: 2
   aportee: 0
   breathing: 304
+  ui: {fileID: 1308795959}
 --- !u!50 &1181909446
 Rigidbody2D:
   serializedVersion: 4
@@ -875,6 +876,8 @@ MonoBehaviour:
   - {fileID: 303675785}
   respawnPoint: {fileID: 1181909444}
   dead: 0
+  perso: {fileID: 1181909442}
+  ui: {fileID: 1308795959}
 --- !u!114 &1181909449
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1419,7 +1422,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.6392157}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.7647059}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

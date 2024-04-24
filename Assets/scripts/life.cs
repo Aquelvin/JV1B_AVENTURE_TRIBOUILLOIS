@@ -15,6 +15,12 @@ public class life : MonoBehaviour
 
     public bool dead = false;
 
+    public GameObject perso;
+
+    public Canvas ui;
+
+     
+
 
     // Start is called before the first frame update
     void Start()
@@ -45,6 +51,14 @@ public class life : MonoBehaviour
         {
             Respawn();
         }
+
+        if (SceneManager.GetActiveScene().buildIndex == 5 || SceneManager.GetActiveScene().buildIndex == 13)
+        {
+            perso.SetActive(false);
+            ui.enabled = false;
+
+        }
+
     }
 
     public void PerdPv()
@@ -66,7 +80,7 @@ public class life : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag == "mob" || collision.gameObject.tag == "boss")
+        if(collision.gameObject.tag == "mob" || collision.gameObject.tag == "boss" || collision.gameObject.tag == "mob_huile")
         {
             PerdPv();
 
