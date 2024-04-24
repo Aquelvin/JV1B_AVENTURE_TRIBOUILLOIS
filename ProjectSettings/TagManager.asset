@@ -19,6 +19,8 @@ TagManager:
   - Limit_enemisZ
   - lootfinal
   - sword
+  - mob_huile
+  - huile
   layers:
   - Default
   - TransparentFX

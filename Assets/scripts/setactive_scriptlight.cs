@@ -17,9 +17,13 @@ public class setactive_scriptlight : MonoBehaviour
 
     public GameObject obscurity;
 
+    public bool_huile collected;
+
     // Start is called before the first frame update
     void Start()
     {
+        collected = FindObjectOfType<bool_huile>();
+
         monScript = monObj.GetComponent<lumieresombre>();
         secondscript = monObj.GetComponent<lumiereclair>();
     }
@@ -27,26 +31,29 @@ public class setactive_scriptlight : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("zut");
-        Debug.Log(SceneManager.GetActiveScene().buildIndex);
-    if ( SceneManager.GetActiveScene().buildIndex == 3)
-    {
-            Debug.Log("scene 3");
-            monScript.enabled = true;
-            secondscript.enabled = false;
-            obscurity.SetActive(true);
-        }
-    else
+        if (collected.recup)
         {
-            secondscript.enabled = true;
-            monScript.enabled = false;
+            Debug.Log("zut");
+            Debug.Log(SceneManager.GetActiveScene().buildIndex);
+            if (SceneManager.GetActiveScene().buildIndex == 3)
+            {
+                Debug.Log("scene 3");
+                monScript.enabled = true;
+                secondscript.enabled = false;
+                obscurity.SetActive(true);
+            }
+            else
+            {
+                secondscript.enabled = true;
+                monScript.enabled = false;
 
 
-            lumiere.SetActive(false);
-            obscurity.SetActive(false);
+                lumiere.SetActive(false);
+                obscurity.SetActive(false);
+            }
+
+
+
         }
-    
-
-       
     }
 }

@@ -674,6 +674,7 @@ GameObject:
   - component: {fileID: 1181909453}
   - component: {fileID: 1181909454}
   - component: {fileID: 1181909447}
+  - component: {fileID: 1181909455}
   - component: {fileID: 1181909446}
   - component: {fileID: 1181909452}
   - component: {fileID: 1181909448}
@@ -888,6 +889,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lanterne: 101
   lumiere: {fileID: 5289683422546399907}
+  collected: {fileID: 0}
 --- !u!114 &1181909450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -920,6 +922,7 @@ MonoBehaviour:
   secondscript: {fileID: 1181909449}
   lumiere: {fileID: 6288083896336118497}
   obscurity: {fileID: 1636471274}
+  collected: {fileID: 0}
 --- !u!114 &1181909452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -958,6 +961,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 128b17d6d5640ee4fa2c53d5c5a94a7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bcd: {fileID: 1181909447}
+  recup: 0
+--- !u!114 &1181909455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1181909442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8235a63b1c7330d4bb9eb65017fc175d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   bcd: {fileID: 1181909447}
@@ -2035,7 +2052,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

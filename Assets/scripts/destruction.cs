@@ -26,7 +26,7 @@ public class destruction : MonoBehaviour
         {
             if (aportee)
             {
-                if (Input.GetKey(attackkey))
+                if (Input.GetKeyDown(attackkey))
                 {
                     Destroy(bc2d.gameObject);
                 }

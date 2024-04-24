@@ -10,7 +10,7 @@ public class objet_final : MonoBehaviour
 
     private void Start()
     {
-        boss = GameObject.FindGameObjectWithTag("boss").transform; // Trouver le joueur
+        boss = GameObject.FindGameObjectWithTag("mob_huile").transform; // Trouver le joueur
     }
 
     private void Update()

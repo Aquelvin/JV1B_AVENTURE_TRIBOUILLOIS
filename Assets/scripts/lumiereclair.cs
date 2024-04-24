@@ -10,9 +10,12 @@ public class lumiereclair : MonoBehaviour
  
     public GameObject lumiere ;
 
+    public bool_huile collected;
+
     // Start is called before the first frame update
     void Start()
     {
+        collected = FindObjectOfType<bool_huile>();
         lumiere.SetActive(false);
     }
     
@@ -20,10 +23,12 @@ public class lumiereclair : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(lanterne))
+        if (collected.recup)
         {
-            lumiere.SetActive(!lumiere.activeSelf);
+            if (Input.GetKeyDown(lanterne))
+            {
+                lumiere.SetActive(!lumiere.activeSelf);
+            }
         }
-
     }
 }

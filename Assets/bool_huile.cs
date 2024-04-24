@@ -1,18 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class tp_bateau : MonoBehaviour
+public class bool_huile : MonoBehaviour
 {
-    public BoxCollider2D bc;
-
-    bool_huile collected;
+    [SerializeField]
+    public BoxCollider2D bcd;
+    public bool recup = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        collected = FindObjectOfType<bool_huile>();
+
     }
 
     // Update is called once per frame
@@ -20,12 +19,11 @@ public class tp_bateau : MonoBehaviour
     {
 
     }
-
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player") && collected.recup)
+        if (other.CompareTag("huile"))
         {
-            SceneManager.LoadScene(3);
+            recup = true;
         }
     }
 }
