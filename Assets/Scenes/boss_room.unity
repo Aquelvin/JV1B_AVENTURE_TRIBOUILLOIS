@@ -387,19 +387,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1884098854855447421
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7681275194716132126}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f326cc3505246744c9022c50704d987f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 50
 --- !u!114 &3140936192842204451
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -583,9 +570,9 @@ GameObject:
   m_Component:
   - component: {fileID: 319112418837788015}
   - component: {fileID: 8176390454378339112}
-  - component: {fileID: 1884098854855447421}
   - component: {fileID: 1716039091564787529}
   - component: {fileID: 4593296811585965914}
+  - component: {fileID: 8176390454378339113}
   m_Layer: 0
   m_Name: loot final
   m_TagString: lootfinal
@@ -690,6 +677,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8176390454378339113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7681275194716132126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2ac97b6545ffcb4e950b3f356a669b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 50
 --- !u!114 &8511823864018937443
 MonoBehaviour:
   m_ObjectHideFlags: 0
