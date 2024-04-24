@@ -14,22 +14,28 @@ public class Bossdeath : MonoBehaviour
 
     public float nombrevie;
     public float vieperdue;
+
+    bool_sword collected;
     // Start is called before the first frame update
     void Start()
     {
+        collected = FindObjectOfType<bool_sword>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (aportee)
+        if (collected.recup)
         {
-            if (Input.GetKeyDown(attackkey))
+            if (aportee)
             {
-                nombrevie -= vieperdue;
+                if (Input.GetKeyDown(attackkey))
+                {
+                    nombrevie -= vieperdue;
+                }
+
+
             }
-
-
         }
         if (nombrevie <= 0)
         {

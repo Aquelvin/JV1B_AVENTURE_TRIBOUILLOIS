@@ -11,22 +11,28 @@ public class destruction : MonoBehaviour
     private KeyCode attackkey = KeyCode.Space;
 
     public bool aportee = false;
+
+    bool_sword collected;
     // Start is called before the first frame update
     void Start()
     {
+        collected = FindObjectOfType<bool_sword>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (aportee)
+        if (collected.recup)
         {
-            if (Input.GetKey(attackkey))
+            if (aportee)
             {
-                Destroy(bc2d.gameObject);
-            }
+                if (Input.GetKey(attackkey))
+                {
+                    Destroy(bc2d.gameObject);
+                }
 
-            
+
+            }
         }
     }
     private void OnTriggerEnter2D(Collider2D other)
