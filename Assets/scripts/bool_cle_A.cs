@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class bool_cle_A : MonoBehaviour
 {
@@ -8,6 +9,8 @@ public class bool_cle_A : MonoBehaviour
     public BoxCollider2D bcd;
     public bool recup = false;
 
+    public Image[] Slots;
+    public Sprite cle_icon;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +27,7 @@ public class bool_cle_A : MonoBehaviour
         if (other.CompareTag("cleA"))
         {
             recup = true;
+            Slots[0].sprite = cle_icon;
         }
     }
 }

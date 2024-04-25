@@ -21,6 +21,9 @@ TagManager:
   - sword
   - mob_huile
   - huile
+  - coinA
+  - coinB
+  - coinC
   layers:
   - Default
   - TransparentFX
