@@ -5,38 +5,32 @@ using UnityEngine.UI;
 
 public class inventaire : MonoBehaviour
 {
-    public Image icone;
-
-    public Image stuff;
-
-    [SerializeField]
-    private KeyCode open;
-
-    public bool iconactif = true;
+    public Image inventory_icon;
+    public Canvas inventory;
+    private bool inventory_open = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        inventory.enabled = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(open) && iconactif == true)
+        if (Input.GetKeyDown(KeyCode.Q))
         {
-            icone.enabled = false;
-          
-            iconactif = false;
-
-
+            inventory_icon.enabled = false;
+            inventory_open = !inventory_open;
         }
-        else if (Input.GetKeyDown(open) && iconactif == false)
-        {
-            icone.enabled = true;
-         
-            iconactif = true;
 
+        if (inventory_open)
+        {
+            inventory.enabled = true;
+        } else if (!inventory_open)
+        {
+            inventory_icon.enabled = true;
+            inventory.enabled = false;
         }
     }
 }
