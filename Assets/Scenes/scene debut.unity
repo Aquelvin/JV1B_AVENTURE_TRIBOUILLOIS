@@ -1702,7 +1702,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bcd: {fileID: 1181909447}
-  recup: 1
+  recup: 0
   Slots:
   - {fileID: 1077085754}
   coin_icon: {fileID: 21300000, guid: 33378c824a0110e4090c36bbdd0a16e7, type: 3}
