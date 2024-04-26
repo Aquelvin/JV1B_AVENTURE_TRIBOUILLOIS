@@ -12,3 +12,5 @@ ce que je n'ai pas eu le temps de faire:
 -configuration et jouable à la manette
 
 
+! Afin de lancer le jeu, veiller à cliquer sur "test" dans la barre blanche du dessus, puis sur "open" et 
+ensuite drag and drop la scène "Ecran_acceuil" ou bien clicker sur le petit cercle dans "none (scene asset)" puis sur "Ecran_acceuil".
